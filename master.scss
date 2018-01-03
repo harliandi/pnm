@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src: url("./font/Gotham Pro/GothamPro.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("./font/Source Sans Pro/SourceSansPro-Regular.otf") format('opentype');
+}
+
+$font-main: "Gotham Pro", sans-serif;
+$font-type: "Source Sans Pro", sans-serif;
+$primary-color: #000000;
+$bg-main: rgb(236, 236, 237);
+$blue-color: rgb(23, 111, 182);
+
+body {
+  font: $font-main;
+  background-color: $bg-main;
+}
+
+.footer {
+  background-color: $blue-color;
+  .logo-footer img{
+    width: 250px;
+    height: auto;
+  }
+}
