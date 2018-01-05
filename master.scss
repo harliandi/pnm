@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Gotham Pro";
-  src: url("./font/Gotham Pro/GothamPro.ttf") format('truetype');
+  src: url("/Font/Gotham Pro/GothamPro.ttf") format('truetype');
 }
 
 @font-face {
   font-family: "Source Sans Pro";
-  src: url("./font/Source Sans Pro/SourceSansPro-Regular.otf") format('opentype');
+  src: url("/Font/Source Sans Pro/SourceSansPro-Regular.otf") format('opentype');
 }
 
 $font-main: "Gotham Pro", sans-serif;
@@ -19,9 +19,29 @@ body {
   background-color: $bg-main;
 }
 
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+  .carousel-caption {
+    z-index: 10;
+  }
+  .item {
+    height: 500px;
+    background-color: #777;
+  }
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
 .footer {
   background-color: $blue-color;
-  .logo-footer img{
+  .logo-footer img {
     width: 250px;
     height: auto;
   }
