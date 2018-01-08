@@ -48,4 +48,20 @@ article .featurette-divider {
     width: 250px;
     height: auto; }
 
+ul.nav-footer {
+  margin-left: -10px;
+  margin-top: 20px;
+  list-style-type: none;
+  display: block;
+  color: #ececed; }
+  ul.nav-footer li {
+    display: inline-block;
+    border-right: #ececed 1px solid;
+    padding: 0 10px 0 10px; }
+    ul.nav-footer li:last-child {
+      border-right: none; }
+    ul.nav-footer li a {
+      color: #ececed;
+      text-transform: uppercase; }
+
 /*# sourceMappingURL=master.css.map */
