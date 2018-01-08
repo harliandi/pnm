@@ -23,6 +23,23 @@ body {
   background-color: #ececed;
   font-size: 12px; }
 
+header {
+  height: 150px; }
+  header .logo {
+    height: auto;
+    width: 200px; }
+  header .logo-fraud {
+    height: auto;
+    width: 100px; }
+  header .logo-bumn {
+    height: auto;
+    width: 100px; }
+  header .white-bg {
+    background-color: #ffffff; }
+  header .bg-nav {
+    background: url("assets/Header/Aset-Header-3.png") no-repeat fixed;
+    position: absolute; }
+
 .carousel {
   height: 500px;
   margin-bottom: 60px; }
@@ -43,7 +60,9 @@ article .featurette-divider {
   /* Space out the Bootstrap <hr> more */ }
 
 .footer {
-  background-color: #176fb6; }
+  background-color: #176fb6;
+  font-size: 0.9em;
+  color: #ffffff; }
   .footer .logo-footer img {
     width: 250px;
     height: auto; }

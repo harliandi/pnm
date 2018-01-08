@@ -38,6 +38,29 @@ body {
   font-size: 12px;
 }
 
+header {
+  height: 150px;
+  .logo {
+    height: auto;
+    width: 200px;
+  }
+  .logo-fraud {
+    height: auto;
+    width: 100px;
+  }
+  .logo-bumn {
+    height: auto;
+    width: 100px;
+  }
+  .white-bg{
+    background-color: #ffffff;
+  }
+  .bg-nav{
+    background: url("assets/Header/Aset-Header-3.png") no-repeat fixed;
+    position: absolute;
+  }
+}
+
 .carousel {
   height: 500px;
   margin-bottom: 60px;
@@ -66,6 +89,8 @@ article {
 
 .footer {
   background-color: $blue-color;
+  font-size: 0.9em;
+  color: #ffffff;
   .logo-footer img {
     width: 250px;
     height: auto;
