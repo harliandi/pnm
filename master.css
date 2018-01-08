@@ -31,6 +31,14 @@ header {
   header .logo-fraud {
     height: auto;
     width: 100px; }
+  header .logo-bumn {
+    height: auto;
+    width: 100px; }
+  header .white-bg {
+    background-color: #ffffff; }
+  header .bg-nav {
+    background: url("assets/Header/Aset-Header-3.png") no-repeat fixed;
+    position: absolute; }
 
 .carousel {
   height: 500px;
