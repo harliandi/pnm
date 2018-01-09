@@ -33,13 +33,45 @@ $bg-main: rgb(236, 236, 237);
 $blue-color: rgb(23, 111, 182);
 
 body {
-  font: $font-main;
+  font-family: $font-main;
   background-color: $bg-main;
-  font-size: 12px;
+  font-size: 14pt;
+  p {
+    font-family: $font-type;
+  }
+  #content-1, #content-2, #content-3 {
+    margin: 0 0 50px 0;
+    .box {
+      min-height: 300px;
+      .box-header {
+        font-family: "Gotham Pro", sans-serif;
+        .box-title {
+          font-size: 14pt;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        .box-icon {
+          position: relative;
+          top: 5px;
+        }
+        .box-title-small {
+          font-style: italic;
+          font-size: 10pt;
+          color: $blue-color;
+          position: relative;
+          text-transform: capitalize;
+        }
+      }
+      .box-content {
+
+      }
+    }
+  }
 }
 
 header {
   height: 150px;
+  font-size: 13px;
   .logo {
     height: auto;
     width: 200px;
@@ -51,14 +83,24 @@ header {
   .logo-bumn {
     height: auto;
     width: 100px;
+    margin-top: 12px;
   }
-  .white-bg{
+  .white-bg {
     background-color: #ffffff;
   }
-  .bg-nav{
+  .bg-nav {
     background: url("assets/Header/Aset-Header-3.png") no-repeat fixed;
     position: absolute;
   }
+  .navbar-nav {
+    text-transform: uppercase;
+  }
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
 }
 
 .carousel {
@@ -87,34 +129,68 @@ article {
   }
 }
 
+.btn-main {
+  color: $bg-main;
+  font-size: 14px;
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: bold;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  border-color: rgb(173, 173, 173);
+  border-width: 2px;
+  border-radius: 2px;
+  height: 40px;
+  padding: 9px 10px;
+  &:hover {
+    color: #777777;
+  }
+}
+
 .footer {
   background-color: $blue-color;
-  font-size: 0.9em;
+  height: 220px;
+  font-size: 9pt;
   color: #ffffff;
+  font-family: "Gotham Pro", sans-serif;
+  padding: 25px 0 15px 0;
   .logo-footer img {
     width: 250px;
     height: auto;
   }
-}
-
-ul.nav-footer {
-
-  margin-left: -10px;
-  margin-top: 20px;
-  list-style-type: none;
-  display: block;
-  color: $bg-main;
-  li {
-    display: inline-block;
-    border-right: $bg-main 1px solid;
-    padding: 0 10px 0 10px;
-    &:last-child {
-      border-right: none;
-    }
-    a {
+  .address{
+    margin-top: 10px;
+    text-align: right;
+    font-size: 9pt;
+    font-style: normal;
+    font-family: "Gotham Pro", sans-serif;
+    a{
       color: $bg-main;
-      text-transform: uppercase;
     }
   }
+  .social{
+    text-align: right;
+    margin: 10px;
+  }
+  ul.nav-footer {
+    margin-left: -30px;
+    margin-top: 20px;
+    list-style-type: none;
+    display: block;
+    color: $bg-main;
+    font-size: 11pt;
+    li {
+      display: inline-block;
+      border-right: $bg-main 1px solid;
+      padding: 0 10px 0 10px;
+      &:last-child {
+        border-right: none;
+      }
+      a {
+        color: $bg-main;
+        text-transform: uppercase;
+      }
+    }
 
+  }
 }
+
