@@ -172,12 +172,12 @@ article {
     margin: 10px;
   }
   ul.nav-footer {
-    margin-left: -30px;
-    margin-top: 20px;
+    margin-left: -50px;
     list-style-type: none;
     display: block;
     color: $bg-main;
-    font-size: 11pt;
+    font-size: 10pt;
+    padding: 0;
     li {
       display: inline-block;
       border-right: $bg-main 1px solid;

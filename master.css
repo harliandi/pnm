@@ -126,12 +126,12 @@ article .featurette-divider {
     text-align: right;
     margin: 10px; }
   .footer ul.nav-footer {
-    margin-left: -30px;
-    margin-top: 20px;
+    margin-left: -50px;
     list-style-type: none;
     display: block;
     color: #ececed;
-    font-size: 11pt; }
+    font-size: 10pt;
+    padding: 0; }
     .footer ul.nav-footer li {
       display: inline-block;
       border-right: #ececed 1px solid;
