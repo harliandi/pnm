@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Gotham Pro";
-  src: url("/Font/Gotham Pro/GothamPro.ttf") format('truetype');
+  src: url("/Font/Gotham Pro/GothamPro-Bold.ttf") format('truetype');
   font-weight: bold;
   font-style: normal;
 }
@@ -28,7 +28,7 @@
 
 $font-main: "Gotham Pro", sans-serif;
 $font-type: "Source Sans Pro", sans-serif;
-$primary-color: #000000;
+$primary-color: rgb(128, 148, 165);
 $bg-main: rgb(236, 236, 237);
 $blue-color: rgb(23, 111, 182);
 
@@ -39,20 +39,27 @@ body {
   p {
     font-family: $font-type;
   }
+  #carousel-1 {
+    height: 100%;
+  }
   #content-1, #content-2, #content-3 {
     margin: 0 0 50px 0;
     .box {
       min-height: 300px;
       .box-header {
         font-family: "Gotham Pro", sans-serif;
+        min-height: 50px;
         .box-title {
           font-size: 14pt;
           font-weight: bold;
           text-transform: uppercase;
+          float: left;
+          color: $primary-color;
         }
         .box-icon {
           position: relative;
           top: 5px;
+          float: left;
         }
         .box-title-small {
           font-style: italic;
@@ -60,9 +67,47 @@ body {
           color: $blue-color;
           position: relative;
           text-transform: capitalize;
+          float: left;
         }
       }
       .box-content {
+        margin-top: 20px;
+        .row {
+          margin-bottom: 20px;
+        }
+        .img-anggota {
+          float: left;
+          width: 85px;
+          height: auto;
+          margin-right: 20px;
+          margin-bottom: 20px;
+        }
+        .img-komunitas {
+          width: 175px;
+        }
+        .komunitas-title {
+          float: left;
+          color: $primary-color;
+          text-transform: capitalize;
+          font-size: 12pt;
+        }
+        .komunitas-content {
+          float: left;
+          font-size: 10pt;
+          color: $primary-color;
+        }
+        .komunitas-social {
+          float: left;
+          font-size: 9pt;
+          color: $primary-color;
+          img {
+            &:first-child{
+              margin-left: 0;
+            }
+            margin-left: 30px;
+            margin-right: 5px;
+          }
+        }
 
       }
     }
@@ -130,7 +175,7 @@ article {
 }
 
 .btn-main {
-  color: $bg-main;
+  color: $primary-color;
   font-size: 14px;
   font-family: "Gotham Pro", sans-serif;
   font-weight: bold;
@@ -157,17 +202,17 @@ article {
     width: 250px;
     height: auto;
   }
-  .address{
+  .address {
     margin-top: 10px;
     text-align: right;
     font-size: 9pt;
     font-style: normal;
     font-family: "Gotham Pro", sans-serif;
-    a{
+    a {
       color: $bg-main;
     }
   }
-  .social{
+  .social {
     text-align: right;
     margin: 10px;
   }
