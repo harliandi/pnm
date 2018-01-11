@@ -70,7 +70,8 @@ body {
         body #content-1 .box .box-content .komunitas-content, body #content-2 .box .box-content .komunitas-content, body #content-3 .box .box-content .komunitas-content {
           float: left;
           font-size: 10pt;
-          color: #8094a5; }
+          color: #8094a5;
+          width: 110%; }
         body #content-1 .box .box-content .komunitas-social, body #content-2 .box .box-content .komunitas-social, body #content-3 .box .box-content .komunitas-social {
           float: left;
           font-size: 9pt;
