@@ -61,7 +61,7 @@ body {
           margin-right: 20px;
           margin-bottom: 20px; }
         body #content-1 .box .box-content .img-komunitas, body #content-2 .box .box-content .img-komunitas, body #content-3 .box .box-content .img-komunitas {
-          width: 175px; }
+          max-width: 175px; }
         body #content-1 .box .box-content .komunitas-title, body #content-2 .box .box-content .komunitas-title, body #content-3 .box .box-content .komunitas-title {
           float: left;
           color: #8094a5;
