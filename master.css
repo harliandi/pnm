@@ -83,6 +83,9 @@ body {
               margin-left: 0; }
 
 header {
+  background-image: url("assets/Header/Aset-Header-3.png");
+  background-repeat: no-repeat;
+  background-position: right top;
   height: 150px;
   font-size: 13px; }
   header .logo {
@@ -101,7 +104,12 @@ header {
     background: url("assets/Header/Aset-Header-3.png") no-repeat fixed;
     position: absolute; }
   header .navbar-nav {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: bold; }
+    header .navbar-nav li > a {
+      color: #8094a5; }
 
 .vcenter {
   display: inline-block;
@@ -122,6 +130,54 @@ header {
     left: 0;
     min-width: 100%;
     height: 500px; }
+  .carousel .head-caption {
+    font-weight: bold;
+    font-size: 45px;
+    color: #ffffff;
+    text-align: left;
+    line-height: normal;
+    font-family: "Gotham Pro", sans-serif;
+    word-break: keep-all;
+    width: 90%; }
+  .carousel .small-caption {
+    font-weight: bold;
+    font-size: 26px;
+    color: #ffffff;
+    text-align: left;
+    line-height: normal;
+    font-family: "Gotham Pro", sans-serif; }
+
+#carousel-2 {
+  height: 600px; }
+  #carousel-2 .item {
+    height: 600px; }
+  #carousel-2 .carousel-inner > .item > img {
+    height: 100%; }
+  #carousel-2 .carousel-caption {
+    background-color: rgba(172, 241, 130, 0.8);
+    width: 30%;
+    float: left;
+    top: 45%;
+    height: 35%;
+    right: 0;
+    left: 16%;
+    padding: 25px; }
+
+#carousel-3 {
+  height: 700px; }
+  #carousel-3 .carousel-inner > .item > img {
+    height: 100%; }
+  #carousel-3 .item {
+    height: 700px; }
+  #carousel-3 .carousel-caption {
+    background-color: rgba(249, 125, 125, 0.8);
+    width: 30%;
+    float: left;
+    top: 23%;
+    height: 55%;
+    right: 0;
+    left: 16%;
+    padding: 25px; }
 
 article .featurette-divider {
   margin: 80px 0;
