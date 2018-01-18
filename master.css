@@ -147,6 +147,23 @@ header {
     line-height: normal;
     font-family: "Gotham Pro", sans-serif; }
 
+#carousel-1 {
+  height: 800px; }
+  #carousel-1 .item {
+    height: 800px; }
+  #carousel-1 .carousel-inner > .item > img {
+    height: 100%; }
+  #carousel-1 .carousel-caption {
+    background-color: rgba(23, 111, 182, 0.8);
+    float: left;
+    width: 100%;
+    top: 73%;
+    left: 0;
+    right: 0;
+    padding: 25px;
+    height: 27%;
+    text-align: center; }
+
 #carousel-2 {
   height: 600px; }
   #carousel-2 .item {
