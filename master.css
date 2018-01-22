@@ -22,6 +22,10 @@ body {
   font-family: "Gotham Pro", sans-serif;
   background-color: #ececed;
   font-size: 14pt; }
+  body h1 {
+    font-family: "Gotham Pro", sans-serif;
+    font-size: 36px;
+    font-weight: bold; }
   body p {
     font-family: "Source Sans Pro", sans-serif; }
   body #carousel-1 {
@@ -112,15 +116,37 @@ header {
       color: #8094a5; }
 
 .vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.vhcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.btn-xlg {
+  font-size: 40px; }
 
 .carousel {
   height: 500px;
   margin-bottom: 60px; }
   .carousel .carousel-caption {
     z-index: 10; }
+  .carousel .carousel-indicators li {
+    width: 22px;
+    height: 22px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+    border: 5px solid #ececed;
+    border-radius: 12px; }
+  .carousel .carousel-indicators .active {
+    width: 22px;
+    height: 22px;
+    margin: 0;
+    background-color: #fff; }
   .carousel .item {
     height: 500px;
     background-color: #777; }
