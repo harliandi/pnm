@@ -32,6 +32,99 @@ body {
     height: 100%; }
   body #content-1, body #content-2, body #content-3 {
     margin: 0 0 50px 0; }
+    body #content-1 .img-tips, body #content-2 .img-tips, body #content-3 .img-tips {
+      height: 100%; }
+    body #content-1 h3, body #content-2 h3, body #content-3 h3 {
+      font-family: "Gotham Pro", sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 34px;
+      color: #8094a5;
+      text-align: center; }
+    body #content-1 h4, body #content-2 h4, body #content-3 h4 {
+      font-family: "Gotham Pro", sans-serif;
+      font-size: 34px;
+      color: #8094a5;
+      text-align: center; }
+    body #content-1 hr, body #content-2 hr, body #content-3 hr {
+      width: 12%;
+      border-bottom: 8px solid #176fb6;
+      margin-top: -7px; }
+    body #content-1 .box-tips, body #content-2 .box-tips, body #content-3 .box-tips {
+      margin-top: 10px; }
+    body #content-1 .box-story, body #content-2 .box-story, body #content-3 .box-story {
+      float: left;
+      margin: 50px 0 0 50px; }
+      body #content-1 .box-story .line-story, body #content-2 .box-story .line-story, body #content-3 .box-story .line-story {
+        float: left;
+        text-align: left;
+        width: 100%;
+        border-bottom: 8px solid #9f6eae;
+        margin-top: 0;
+        clear: both;
+        margin-left: -35px;
+        clear: right; }
+      body #content-1 .box-story .line-green, body #content-2 .box-story .line-green, body #content-3 .box-story .line-green {
+        border-bottom: 8px solid #8bff3a;
+        width: 32%; }
+      body #content-1 .box-story .line-orange, body #content-2 .box-story .line-orange, body #content-3 .box-story .line-orange {
+        border-bottom: 8px solid #ff8063;
+        width: 32%; }
+      body #content-1 .box-story .line-yellow, body #content-2 .box-story .line-yellow, body #content-3 .box-story .line-yellow {
+        border-bottom: 8px solid #faa21b;
+        width: 32%; }
+      body #content-1 .box-story .nama, body #content-2 .box-story .nama, body #content-3 .box-story .nama {
+        font-weight: bold;
+        float: left;
+        margin-left: -36px;
+        clear: both; }
+      body #content-1 .box-story .pekerjaan, body #content-2 .box-story .pekerjaan, body #content-3 .box-story .pekerjaan {
+        font-size: 12px;
+        float: left;
+        clear: left;
+        margin-left: -36px;
+        clear: both; }
+    body #content-1 .tgl, body #content-2 .tgl, body #content-3 .tgl {
+      font-size: 10px;
+      color: #8094a5;
+      margin-left: -36px;
+      margin-top: -10px;
+      float: left;
+      clear: both; }
+    body #content-1 .tgl-tips, body #content-2 .tgl-tips, body #content-3 .tgl-tips {
+      font-size: 10px;
+      color: #8094a5;
+      margin-top: -10px;
+      float: left;
+      clear: both; }
+    body #content-1 .line-tgl, body #content-2 .line-tgl, body #content-3 .line-tgl {
+      float: left;
+      text-align: left;
+      width: 10%;
+      border-bottom: 8px solid #9f6eae;
+      margin-top: 0;
+      clear: both; }
+    body #content-1 .title-tips, body #content-2 .title-tips, body #content-3 .title-tips {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 15px;
+      float: left;
+      color: #4398e0; }
+    body #content-1 .border-grey, body #content-2 .border-grey, body #content-3 .border-grey {
+      border-top: 1px solid #8094a5; }
+    body #content-1 .border-bottom, body #content-2 .border-bottom, body #content-3 .border-bottom {
+      border-bottom: 1px solid #8094a5; }
+    body #content-1 .border-middle, body #content-2 .border-middle, body #content-3 .border-middle {
+      border-left: 1px solid #8094a5;
+      border-right: 1px solid #8094a5;
+      padding-left: 10px;
+      padding-right: 10px; }
+    body #content-1 .img-story, body #content-2 .img-story, body #content-3 .img-story {
+      height: 130px;
+      width: auto;
+      float: left;
+      margin-top: 15px;
+      margin-bottom: 15px; }
     body #content-1 .box, body #content-2 .box, body #content-3 .box {
       min-height: 300px; }
       body #content-1 .box .box-header, body #content-2 .box .box-header, body #content-3 .box .box-header {

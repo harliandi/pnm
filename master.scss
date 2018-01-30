@@ -1,3 +1,4 @@
+//todo:font-type dan size ditambah
 @font-face {
   font-family: "Gotham Pro";
   src: url("/Font/Gotham Pro/GothamPro.ttf") format('truetype');
@@ -31,6 +32,10 @@ $font-type: "Source Sans Pro", sans-serif;
 $primary-color: rgb(128, 148, 165);
 $bg-main: rgb(236, 236, 237);
 $blue-color: rgb(23, 111, 182);
+$font-tips-color: rgb(67, 152, 224);
+$line-orange: rgb(255, 128, 99);
+$line-green: rgb(139, 255, 58);
+$line-yellow: rgb(250, 162, 27);
 
 body {
   font-family: $font-main;
@@ -49,6 +54,119 @@ body {
   }
   #content-1, #content-2, #content-3 {
     margin: 0 0 50px 0;
+    .img-tips {
+      height: 100%;
+    }
+    h3 {
+      font-family: $font-main;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 34px;
+      color: $primary-color;
+      text-align: center;
+    }
+    h4 {
+      font-family: $font-main;
+      font-size: 34px;
+      color: $primary-color;
+      text-align: center;
+    }
+    hr {
+      width: 12%;
+      border-bottom: 8px solid $blue-color;
+      margin-top: -7px;
+    }
+    .box-tips {
+      margin-top: 10px;
+    }
+    .box-story {
+      float: left;
+      margin: 50px 0 0 50px;
+      .line-story {
+        float: left;
+        text-align: left;
+        width: 100%;
+        border-bottom: 8px solid rgb(159, 110, 174);
+        margin-top: 0;
+        clear: both;
+        margin-left: -35px;
+        clear: right;
+      }
+      .line-green {
+        border-bottom: 8px solid $line-green;
+        width: 32%;
+      }
+      .line-orange {
+        border-bottom: 8px solid $line-orange;
+        width: 32%;
+      }
+      .line-yellow {
+        border-bottom: 8px solid $line-yellow;
+        width: 32%;
+      }
+      .nama {
+        font-weight: bold;
+        float: left;
+        margin-left: -36px;
+        clear: both;
+      }
+      .pekerjaan {
+        font-size: 12px;
+        float: left;
+        clear: left;
+        margin-left: -36px;
+        clear: both;
+      }
+    }
+    .tgl {
+      font-size: 10px;
+      color: $primary-color;
+      margin-left: -36px;
+      margin-top: -10px;
+      float: left;
+      clear: both;
+    }
+    .tgl-tips {
+      font-size: 10px;
+      color: $primary-color;
+      margin-top: -10px;
+      float: left;
+      clear: both;
+    }
+    .line-tgl {
+      float: left;
+      text-align: left;
+      width: 10%;
+      border-bottom: 8px solid rgb(159, 110, 174);
+      margin-top: 0;
+      clear: both;
+    }
+    .title-tips {
+      font-size: 14px;
+      font-weight: bold;
+      margin-top: 15px;
+      float: left;
+      color: $font-tips-color;
+    }
+    .border-grey {
+      border-top: 1px solid $primary-color;
+    }
+    .border-bottom {
+      border-bottom: 1px solid $primary-color;
+    }
+    .border-middle {
+      border-left: 1px solid $primary-color;
+      border-right: 1px solid $primary-color;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .img-story {
+      height: 130px;
+      width: auto;
+      float: left;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
     .box {
       min-height: 300px;
       .box-header {
