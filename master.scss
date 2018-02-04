@@ -76,8 +76,21 @@ body {
       border-bottom: 8px solid $blue-color;
       margin-top: -7px;
     }
+    .hr-wide {
+      width: 30%;
+    }
     .box-tips {
       margin-top: 10px;
+    }
+    .box-pad {
+      padding-bottom: 10px;
+      border-top: 1px solid $primary-color;
+      min-height: 250px;
+      margin-bottom: 15px;
+      width: auto;
+      &.box-pad-border {
+        border-top: 0;
+      }
     }
     .box-story {
       float: left;
@@ -86,11 +99,10 @@ body {
         float: left;
         text-align: left;
         width: 100%;
-        border-bottom: 8px solid rgb(159, 110, 174);
+        border-bottom: 8px solid $primary-color;
         margin-top: 0;
         clear: both;
         margin-left: -35px;
-        clear: right;
       }
       .line-green {
         border-bottom: 8px solid $line-green;
@@ -113,9 +125,21 @@ body {
       .pekerjaan {
         font-size: 12px;
         float: left;
-        clear: left;
         margin-left: -36px;
         clear: both;
+      }
+    }
+    .box-story-content {
+      float: left;
+      clear: both;
+      a {
+        font-weight: bold;
+        font-size: 14px;
+        word-break: break-all;
+        width: 50%;
+      }
+      p {
+        font-size: 14px;
       }
     }
     .tgl {
@@ -150,6 +174,7 @@ body {
     }
     .border-grey {
       border-top: 1px solid $primary-color;
+      margin-top: 20px;
     }
     .border-bottom {
       border-bottom: 1px solid $primary-color;
