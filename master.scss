@@ -40,7 +40,10 @@ $line-yellow: rgb(250, 162, 27);
 body {
   font-family: $font-main;
   background-color: $bg-main;
-  font-size: 14pt;
+  font-size: 14px;
+  .container {
+    padding: 0 45px 0 45px;
+  }
   h1 {
     font-family: $font-main;
     font-size: 36px;
@@ -198,11 +201,12 @@ body {
         font-family: "Gotham Pro", sans-serif;
         min-height: 50px;
         .box-title {
-          font-size: 14pt;
+          font-size: 18px;
           font-weight: bold;
           text-transform: uppercase;
           float: left;
           color: $primary-color;
+          clear: right;
         }
         .box-icon {
           position: relative;
@@ -211,11 +215,14 @@ body {
         }
         .box-title-small {
           font-style: italic;
-          font-size: 10pt;
+          font-size: 14px;
           color: $blue-color;
           position: relative;
           text-transform: capitalize;
           float: left;
+          clear: left;
+          left: 38px;
+          top: -16px;
         }
       }
       .box-content {
@@ -237,17 +244,17 @@ body {
           float: left;
           color: $primary-color;
           text-transform: capitalize;
-          font-size: 12pt;
+          font-size: 16px;
         }
         .komunitas-content {
           float: left;
-          font-size: 10pt;
+          font-size: 12px;
           color: $primary-color;
           width: 110%;
         }
         .komunitas-social {
           float: left;
-          font-size: 9pt;
+          font-size: 9px;
           color: $primary-color;
           img {
             &:first-child {
@@ -293,6 +300,12 @@ header {
     text-transform: uppercase;
     li > a {
       color: $primary-color;
+    }
+    li {
+      &:first-child {
+        border-right: 1px solid white;
+        height: 30%;
+      }
     }
     font-size: 14px;
     font-family: $font-main;
@@ -363,7 +376,7 @@ header {
   }
   .small-caption {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 22px;
     color: #ffffff;
     text-align: left;
     line-height: normal;
@@ -458,7 +471,7 @@ article {
 .footer {
   background-color: $blue-color;
   height: 220px;
-  font-size: 9pt;
+  font-size: 12px;
   color: #ffffff;
   font-family: "Gotham Pro", sans-serif;
   padding: 25px 0 15px 0;
@@ -469,7 +482,7 @@ article {
   .address {
     margin-top: 10px;
     text-align: right;
-    font-size: 9pt;
+    font-size: 12px;
     font-style: normal;
     font-family: "Gotham Pro", sans-serif;
     a {
@@ -485,7 +498,7 @@ article {
     list-style-type: none;
     display: block;
     color: $bg-main;
-    font-size: 10pt;
+    font-size: 13px;
     padding: 0;
     li {
       display: inline-block;
